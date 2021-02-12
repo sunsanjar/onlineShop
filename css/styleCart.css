@@ -513,6 +513,9 @@ input {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    height: 200px;
 }
 .email{
     width: 500px;
@@ -600,4 +603,26 @@ input {
 }
 .text7{
     padding-left: 20px;
+}
+.container_table{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.text-center1{
+    background: green;
+    color: white;
+}
+.minus, 
+.plus, 
+.delete{
+    background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
